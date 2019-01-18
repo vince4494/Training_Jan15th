@@ -10,7 +10,7 @@ namespace Training_Jan15th
     {
         static void Main(string[] args)
         {
-            GenerationFinder g = new GenerationFinder();
+            GenerationFinder generation = new GenerationFinder();
 
             do
             {
@@ -20,7 +20,7 @@ namespace Training_Jan15th
 
                 foreach (string year in input)
                 {
-                   Console.WriteLine(g.determination(year));
+                   Console.WriteLine(generation.determination(year));
                 }
 
                 Console.ReadKey();
